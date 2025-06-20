@@ -46,7 +46,6 @@ while (opcao != "5")
             {
                 Veiculo veiculo = new(placa);
                 estacionamento.adicionarVeiculo(veiculo);
-                Console.WriteLine("Veículo cadastrado com sucesso!");
             }
             else
             {

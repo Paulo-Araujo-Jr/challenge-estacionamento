@@ -18,6 +18,7 @@ namespace Projeto1.Model
             else
             {
                 veiculosEstacionados.Add(veiculo);
+                Console.WriteLine($"Veículo com placa {veiculo.placa.ToUpper()} adicionado ao estacionamento.");
             }
         }
 
