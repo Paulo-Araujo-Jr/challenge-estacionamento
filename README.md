@@ -29,8 +29,8 @@ dotnet --version
 1. Clone ou copie este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/projeto1.git
-cd projeto1
+git clone git@github.com:Paulo-Araujo-Jr/challenge-estacionamento.git
+cd desafio
 ```
 
 2. Compile e execute:
@@ -51,7 +51,7 @@ dotnet run
 ├── model/
 │   ├── Estacionamento.cs      // Classe que gerencia os veículos
 │   └── Veiculo.cs             // Classe do veículo
-├── projeto1.csproj            // Arquivo do projeto
+├── desafio.csproj            // Arquivo do projeto
 ```
 
 ---
