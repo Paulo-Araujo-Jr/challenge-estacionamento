@@ -11,7 +11,11 @@ namespace Projeto1.Model
 
         public void adicionarVeiculo(Veiculo veiculo)
         {
-            if (veiculo != null)
+            if (veiculosEstacionados.Any(v => v.placa.Equals(veiculo.placa, StringComparison.OrdinalIgnoreCase)))
+            {
+                Console.WriteLine("Veículo já está estacionado.");
+            }
+            else
             {
                 veiculosEstacionados.Add(veiculo);
             }
