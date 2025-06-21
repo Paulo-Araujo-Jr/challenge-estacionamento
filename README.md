@@ -69,7 +69,7 @@ O sistema aceita letras minúsculas ou maiúsculas, com ou sem hífen.
 
 ```
 Digite [1] Para estacionar um veículo
-Digite [2] Para listar os veículos estacoinados
+Digite [2] Para listar os veículos estacionados
 Digite [3] Buscar débito de veículo por placa
 Digite [4] Para mudar o valor da hora de estacionamento
 Digite [5] Para sair
